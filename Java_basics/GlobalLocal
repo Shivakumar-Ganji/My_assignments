@@ -1,0 +1,13 @@
+public class GlobalLocal {
+	static int a=10;//global variable
+	public static void main(String[] args) {
+		
+		localVariable(a);
+		System.out.println("Global variable:"+a);	
+	}
+	public static void localVariable(int b) {
+		int a=b;
+		a+=10;
+		System.out.println("local variable: "+a);
+	}
+}
