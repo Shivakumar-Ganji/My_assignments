@@ -2,12 +2,12 @@ public class IncreDecre {
 
 	public static void main(String[] args) {
 		int a=9;
-		
-		if(a==10) {
-			System.out.println("Number equal to 10");
+		int b=10;
+		if(a==b) {
+			System.out.println("Number are equal ");
 		}
 		else if(a!=10) {
-			System.out.println("Number not equal to 10");
+			System.out.println("Numbers are not equal ");
 		}
 	}
 }
