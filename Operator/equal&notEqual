@@ -1,0 +1,13 @@
+public class IncreDecre {
+
+	public static void main(String[] args) {
+		int a=9;
+		
+		if(a==10) {
+			System.out.println("Number equal to 10");
+		}
+		else if(a!=10) {
+			System.out.println("Number not equal to 10");
+		}
+	}
+}
