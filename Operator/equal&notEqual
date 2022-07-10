@@ -1,13 +1,14 @@
-public class IncreDecre {
+public class EqualNot {
 
 	public static void main(String[] args) {
-		int a=9;
-		int b=10;
-		if(a==b) {
-			System.out.println("Number are equal ");
+		int a=10;
+		int b=9;
+		
+		if(a==b) {// equal operator
+			System.out.println("Numbers are equal");
 		}
-		else if(a!=10) {
-			System.out.println("Numbers are not equal ");
+		else if(a!=b) {//Not equal operator
+			System.out.println("numbers are not equal");
 		}
 	}
 }
