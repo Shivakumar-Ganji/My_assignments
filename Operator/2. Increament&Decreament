@@ -1,0 +1,10 @@
+public class IncreDecre {
+
+	public static void main(String[] args) {
+		int a=10;
+		
+		System.out.println("increament value a: "+ ++a);
+		System.out.println("decreament value a: "+ --a);
+	}
+
+}
