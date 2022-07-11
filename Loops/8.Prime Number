@@ -1,0 +1,33 @@
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number");
+		int num=sc.nextInt();
+		if(isPrime(num)) {
+			System.out.println("NUmber is Prime");
+		}
+		else {
+			System.out.println("Number is not prime");
+		}
+	}
+
+	public static boolean isPrime(int num) {
+		int flag=1;
+		if(num<2) {
+			return false;
+		}
+		else {
+			for(int i=2;i<=num/2;i++) {
+				if(num%i==0) {
+					flag=0;
+					break;
+				}
+			}
+		}
+		if(flag==1) {
+			return true;
+		}
+		return false;
+	}
+}
