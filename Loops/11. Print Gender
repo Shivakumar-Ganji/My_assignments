@@ -1,0 +1,18 @@
+public class Gender {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String gender=sc.next();
+		switch (gender) {
+		case "M":
+			System.out.println("Gender is Male");
+			break;
+		case "F":
+			System.out.println("Gender is Female");
+			break;
+		default:
+			System.out.println("Invalid");
+			break;
+		}
+	}
+}
