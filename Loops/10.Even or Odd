@@ -3,19 +3,23 @@ public class EvenOdd {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
-		if(isCheck(num)) {
+		int result=isCheck(num); // holds the result
+		
+		switch (result) {
+		case 0:
 			System.out.println(num+" is Even");
-		}
-		else {
+			break;
+
+		default:
 			System.out.println(num+" is Odd");
+			break;
 		}
 
 	}
-
-	public static boolean isCheck(int num) {
+	public static int isCheck(int num) {
 		if(num%2==0) {
-			return true;
+			return 0;
 		}
-		return false;
+		return 1;
 	}
 }
